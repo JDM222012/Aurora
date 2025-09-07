@@ -649,7 +649,7 @@ shimboot() {
             chmod +x /newroot/bin/kvs
             cat <<EOF > /newroot/sbin/init
 #!/bin/bash
-/bin/kvs
+/usr/share/bin/kvs
 EOF
         fi
         chmod +x /newroot/sbin/init
